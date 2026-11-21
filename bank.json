@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "institutionId": "krungthai",
   "country": "TH",
   "displayName": "Krungthai",
@@ -18,7 +18,7 @@
         "thai-statements-v1"
       ],
       "sha256": "0d4f4130d8e4b3780491f5d8f0a8d28e26fd5ab78f217d69338479940f6dcf72",
-      "path": "templates/th/krungthai/savings.v1.json",
+      "path": "templates/savings.v1.json",
       "changeSummary": "Initial reviewed bundled recipe."
     }
   ]
