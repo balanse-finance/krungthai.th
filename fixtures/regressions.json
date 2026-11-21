@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "templateId": "krungthai.savings.v1",
+      "extracted": {
+        "pageCount": 1,
+        "text": "รายการบัญชีระหว่างวันที่ เลขที่บัญชี สกุลเงิน KRUNGTHAI KTB กรุงไทย กรุงไทย รายการเดินบัญชี KTB\n01/01/2026 จ่าย SYNTHETIC SAMPLE จ่าย SYNTHETIC SAMPLE 42.00 958.00 TEST",
+        "items": [
+          {
+            "pageNumber": 1,
+            "text": "01/01/2026",
+            "x": 36,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "จ่าย SYNTHETIC SAMPLE",
+            "x": 81,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "จ่าย SYNTHETIC SAMPLE",
+            "x": 206,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "42.00",
+            "x": 336,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "958.00",
+            "x": 471,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "TEST",
+            "x": 536,
+            "y": 390,
+            "width": 20,
+            "height": 10
+          }
+        ]
+      },
+      "expected": [
+        {
+          "amountMinor": 4200,
+          "transactionDateTime": "2026-01-01T00:00:00+07:00",
+          "direction": "debit"
+        }
+      ]
+    }
+  ]
+}
